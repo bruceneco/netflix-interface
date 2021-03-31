@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 1rem;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+}
+
+.logo {
+    width: 200px;
+}
+
