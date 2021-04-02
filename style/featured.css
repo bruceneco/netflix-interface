@@ -1,0 +1,9 @@
+.featured {
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.cover {
+    width: 100%;
+}

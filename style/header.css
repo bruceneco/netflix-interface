@@ -1,11 +1,17 @@
 
+
 .header {
-    padding: 2.5rem 6rem;
-    background: linear-gradient(to bottom, rgba(0,0,0, .7), rgba(0, 0, 0, 0));
+    padding: 2.5rem 6rem 1.6rem 6rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
     display: flex;
     flex-direction: row;
+    position: fixed;
+    width: 100%;
+    transition: all .2s;
 }
-
+.solid-header {
+    background: linear-gradient(to bottom, #000, #111);
+}
 .logo {
     margin-right: 2rem;
     height: 2.6rem;
@@ -28,6 +34,7 @@
     transition: all .2s;
     font-weight: 200;
 }
+
 .left-menu a:hover {
     color: var(--light-gray);
 }
