@@ -2,8 +2,91 @@
     width: 100vw;
     max-height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 .cover {
     width: 100%;
+}
+
+.description {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
+    position: absolute;
+    padding-top: 7rem;
+    padding-left: 4.7rem;
+    width: 40%;
+    height: 100%;
+    color: var(--white);
+}
+
+.description h1 {
+    font-size: 1.5vw;
+}
+
+.description span img {
+    height: 3vw;
+    transform: translateY(1vw);
+    margin-right: 1rem;
+}
+
+.description p {
+    font-size: 1.45vw;
+    line-height: 1.5;
+}
+
+.featured-title {
+    width: 100%;
+}
+
+.buttons {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 4fr 7fr;
+    column-gap: .6rem;
+}
+
+.btn {
+    width: 100%;
+    /*min-width: 8rem;*/
+    height: 4vw;
+    min-height: 2rem;
+    font-size: 1.3vw;
+    min-font-size: 2rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: all .2s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-watch {
+    padding: .7vw 1vw 1vw 1vw;
+    background: var(--white);
+}
+
+.btn-watch:hover {
+    background: var(--light-gray);
+}
+
+.btn-watch img {
+    height: 1.7vw;
+    margin-right: .6vw;
+    transform: translateY(.4vw);
+}
+
+.btn-info {
+    padding: 0 1vw 1.1vw 1vw;
+    background: var(--gray);
+    color: var(--white);
+}
+
+.btn-info:hover {
+    background: var(--dark-gray);
+}
+
+.btn-info img {
+    height: 2.4vw;
+    margin-right: 1vw;
+    transform: translateY(.7vw);
 }
