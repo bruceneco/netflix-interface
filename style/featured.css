@@ -5,6 +5,23 @@
     position: relative;
 }
 
+.featured:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgb(var(--black)));
+}
+
 .cover {
     width: 100%;
 }
@@ -16,7 +33,6 @@
     padding-left: 4.7rem;
     width: 40%;
     height: 100%;
-    color: var(--white);
 }
 
 .description h1 {
@@ -47,7 +63,6 @@
 
 .btn {
     width: 100%;
-    /*min-width: 8rem;*/
     height: 4vw;
     min-height: 2rem;
     font-size: 1.3vw;
@@ -63,6 +78,7 @@
 .btn-watch {
     padding: .7vw 1vw 1vw 1vw;
     background: var(--white);
+    color: rgb(var(--black));
 }
 
 .btn-watch:hover {
@@ -78,7 +94,6 @@
 .btn-info {
     padding: 0 1vw 1.1vw 1vw;
     background: var(--gray);
-    color: var(--white);
 }
 
 .btn-info:hover {

@@ -6,3 +6,18 @@ window.addEventListener("scroll", () => {
     header.classList.remove("solid-header");
   }
 });
+
+// Show navigation arrows when mouse is on list
+document.getElementById("keep-watching").onmouseover = () => {
+  const arrows = document.getElementsByClassName("arrow");
+  for (let i = 0; i <= arrows.length; i++) {
+    arrows[i].removeAttribute("style");
+  }
+}
+// Hide navigation arrows when mouse is on list
+document.getElementById("keep-watching").onmouseout = () => {
+  const arrows = document.getElementsByClassName("arrow");
+  for (let i = 0; i <= arrows.length; i++) {
+    arrows[i].setAttribute("style", "display: none;");
+  }
+}

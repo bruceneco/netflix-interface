@@ -1,6 +1,8 @@
 @import "variables.css";
 @import "header.css";
 @import "featured.css";
+@import "keep-watching.css";
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -8,10 +10,12 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+    color: var(--white);
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, serif;
+    background-color: rgb(var(--black));
 }
