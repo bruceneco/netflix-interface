@@ -1,9 +1,9 @@
-.keep-watching {
+.carousel {
     transform: translateY(-10vw);
-    height: 30vw;
+    height: 25vw;
 }
 
-.keep-watching p {
+.carousel p {
     z-index: 2;
     font-size: 2rem;
     margin-left: var(--default-margin-left);
@@ -11,7 +11,7 @@
 
 .swipe-left {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 3rem;
     transform: translate(-50%, -50%);
     height: 40vw;

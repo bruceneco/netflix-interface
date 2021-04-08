@@ -1,7 +1,7 @@
 @import "variables.css";
 @import "header.css";
 @import "featured.css";
-@import "keep-watching.css";
+@import "carousel.css";
 
 html {
     box-sizing: border-box;
