@@ -7,6 +7,11 @@ window.addEventListener("scroll", () => {
   }
 });
 
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  // true for mobile device
+  alert("Vi que você está usando o celular para visualizar. Infelizmente o intuito desse site não é ficar agradável ao celular, então a interface dele só fica bonita quando acessada de um computador.")
+}
+
 $('.owl-carousel').owlCarousel({
   loop: true,
   margin: 10,
